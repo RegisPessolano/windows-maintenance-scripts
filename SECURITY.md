@@ -12,6 +12,8 @@ Os scripts deste repositório modificam recursos sensíveis do Windows. Antes da
 
 O script `Clear-FingerPrint.bat` remove o contêiner do Windows Hello do usuário atual. O script `Mitigar-BugDesligamento.bat` reduz proteções como VBS e HVCI. Revise o impacto e a documentação individual antes da execução.
 
+`Limpar-Cache.bat` preserva dados de perfil e oferece `/dry-run`. `Edge-Clean.bat` aplica políticas administrativas locais e mantém um backup para `/undo`; o modo `/strict` desativa login, sincronização e armazenamento de credenciais no Edge.
+
 ## Relato de vulnerabilidades
 
 Não publique credenciais, chaves de recuperação, identificadores de tenant ou outros dados sensíveis em uma issue pública. Use o recurso de relato privado de vulnerabilidade do GitHub, caso esteja habilitado no repositório.

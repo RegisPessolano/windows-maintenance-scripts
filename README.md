@@ -12,6 +12,8 @@ Coleção de scripts administrativos para diagnóstico e manutenção do Windows
 | [`Desabilitar_Windows_Hello.bat`](scripts/desabilitar-windows-hello/) | Desabilita novos provisionamentos do Windows Hello for Business por política local. | Alto |
 | [`Clear-FingerPrint.bat`](scripts/clear-fingerprint/) | Redefine o contêiner do Windows Hello somente para o usuário atual. | Alto |
 | [`Mitigar-BugDesligamento.bat`](scripts/mitigar-bug-desligamento/) | Com confirmação e backup, desabilita VBS, HVCI, Inicialização Rápida e hibernação. | Crítico |
+| [`Limpar-Cache.bat`](scripts/limpar-cache/) | Limpa caches conhecidos sem apagar perfis, cookies, senhas ou configurações. | Moderado |
+| [`Edge-Clean.bat`](scripts/edge-clean/) | Remove recomendações do Bing e recursos extras do Edge usando políticas oficiais. | Alto |
 
 ## Requisitos gerais
 
