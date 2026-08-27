@@ -1,0 +1,1 @@
+| [`Install-WSL1-Debian.ps1`](scripts/wsl1-debian-undervolt/) | Configura Debian em WSL1 com Hyper-V/VMP desabilitados para evitar conflito com undervolt via ThrottleStop. | Alto |
